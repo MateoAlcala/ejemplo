@@ -1,0 +1,47 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+background: #ffffff;
+}
+
+header, .main, footer {
+width: 90%;
+max-width:1000px; 
+margin: 20px auto;
+}
+header nav {
+background: #737373;
+overflow:hidden;
+}
+header nav ul {
+list-style: none;
+}
+header nav ul li {
+float: left;
+}
+header nav ul li a{
+padding: 10px 20px;
+display: block;
+color: #ffffff;
+text-decoration: none;
+}
+header nav ul li a:hover {
+background: #75ACEC;
+}
+
+.main .articles {
+width: 99%;
+float: left;
+
+}
+.main .articles article{
+padding: 20px;
+background: #D4D4D4;
+margin-bottom: 3%;
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
